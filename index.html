@@ -1,1 +1,399 @@
-Hello!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stop Starvation Gaza! - Take Action!!! - StopStarvationGaza.com</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff7f7;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        header {
+            background-color: #b71c1c;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            line-height: 1.1;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #b71c1c;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-left: 1.5rem;
+        }
+        .cta-button, .email-button {
+            display: inline-block;
+            background-color: #b71c1c;
+            color: white;
+            padding: 1rem 2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+            cursor: pointer;
+        }
+        .cta-button:hover, .email-button:hover {
+            background-color: #7f1212;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #555;
+            border-top: 1px solid #ddd;
+        }
+        .alert {
+            background-color: #ffcdd2;
+            color: #b71c1c;
+            padding: 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            border: 2px solid #b71c1c;
+        }
+        pre {
+            background-color: #f5f5f5;
+            border-left: 4px solid #b71c1c;
+            padding: 1rem;
+            overflow-x: auto;
+            font-family: Consolas, monospace;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+			text-align: left;
+        }
+		pre p{
+			margin: 0;
+		}
+		.language-selector {
+			margin-bottom: 1.5rem;
+		}
+    </style>
+</head>
+<body>
+	
+    <header>
+		<div class="language-selector">
+			🌍 <label for="lang-select">Language:</label>
+				<select id="lang-select" onchange="setLanguage(this.value)">
+					<option value="en">English</option>
+					<option value="de">Deutsch</option>
+					<option value="nl">Nederlands</option>
+					<option value="it">Italiano</option>
+					<option value="fr">Français</option>
+					<option value="es">Español</option>
+					<option value="ar">العربية</option>
+				</select>
+		</div>
+        <h1 id="title">Stop the Famine in Gaza!</h1>
+		<br>
+		<h1 id="title2">Take Action Now!!!</h1>
+        <p id="description">Time is running out. Make your voice heard before it's too late.</p>
+    </header>
+
+    <main>
+        <section class="alert">
+            <p><strong id="alert-title">WARNING:</strong><span id="alert-message"> The situation in Gaza could escalate into a humanitarian disaster comparable to tragedies from history such as World War II. We cannot stand by and watch!<span></p>
+        </section>
+
+        <section>
+            <h2 id="whynow">Why act NOW?</h2>
+            <p id="whynow-message">The famine in Gaza is not a distant problem. Tens of thousands of people, including children, are at risk of dying from hunger and deprivation. Policymakers can stop this, but only if we exert pressure.</p>
+        </section>
+
+        <section>
+            <h2 id="whatcanyoudo">What can you do?</h2>
+            <ul>
+                <li><strong id="wcyd-step1title">Send letters and emails:</strong> <span id="wcyd-step1">Reach out to your parliamentarians, politicians, and international organisations. Let them know that you expect action.</span></li>
+                <li><strong id="wcyd-step2title">Organise or join protests:</strong> <span id="wcyd-step2">Make your voice heard on the streets and ensure that the media pays attention to this urgent crisis.</span></li>
+                <li><strong id="wcyd-step3title">Share information:</strong> <span id="wcyd-step3">Use social media, blogs and conversations to raise awareness.</span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="exampleletter">Sample letter to send</h2>
+            <p id="exampleletter-1">Copy and adapt this letter to email your policymakers or post on social media:</p>
+            <pre>
+			<p id="exampleletter-2">Dear Sir/Madam,</p>
+			<p id="exampleletter-3">The humanitarian crisis in Gaza is reaching a critical point. Due to blockades and shortages, thousands of innocent civilians, especially children, are at risk of starvation.</p>
+			<p id="exampleletter-4">I urge you to take all possible steps to ensure immediate access to food and aid supplies to Gaza and to put an end to this humanitarian disaster.</p>
+			<p id="exampleletter-5">We must not allow history to repeat itself. Your decisive action is now more necessary than ever.</p>
+			<p id="exampleletter-6">Yours sincerely,</p>
+			<p id="exampleletter-7">[Your name]</p>
+            </pre>            
+        </section>
+        <section>
+            <h2 id="share">Share and organise</h2>
+            <p><span id="share-message1">Use hashtags such as </span><strong>#StopStarvationInGaza</strong><span id="share-message2"> and </span><strong>#ActNowForGaza</strong><span id="share-message3"> on social media. Find or start local campaigns in your neighbourhood. Together we are stronger.</span></p>
+        </section>
+    </main>
+    <footer>&copy; 2025 StopStarvationGaza.com - <strong id="disclaimer">Together for justice and humanity.</strong></footer>
+	<script>
+    const translations = {
+      en: {
+        title: "Stop the Famine in Gaza!",
+		title2: "Take Action Now!!!",
+		description: "Time is running out. Make your voice heard before it's too late.",
+		alertTitle: "WARNING:",
+		alertMessage: " The situation in Gaza could escalate into a humanitarian disaster comparable to tragedies from history such as World War II. We cannot stand by and watch!",
+		whynow: "Why act NOW?",
+		whynowMessage: "The famine in Gaza is not a distant problem. Tens of thousands of people, including children, are at risk of dying from hunger and deprivation. Policymakers can stop this, but only if we exert pressure.",
+		whatcanyoudo: "What can you do?",
+		wcyd1title: "Send letters and emails:",
+		wcyd1: "Reach out to your parliamentarians, politicians, and international organisations. Let them know that you expect action.",
+		wcyd2title: "Organise or join protests:",
+		wcyd2: "Make your voice heard on the streets and ensure that the media pays attention to this urgent crisis.",
+		wcyd3title: "Share information:",
+		wcyd3: "Use social media, blogs and conversations to raise awareness.",
+		exampleletter: "Sample letter to send",
+		exampleletter1: "Copy and adapt this letter to email your policymakers or post on social media:",
+		exampleletter2: "Dear Sir/Madam,",
+		exampleletter3: "The humanitarian crisis in Gaza is reaching a critical point. Due to blockades and shortages, thousands of innocent civilians, especially children, are at risk of starvation.",
+		exampleletter4: "I urge you to take all possible steps to ensure immediate access to food and aid supplies to Gaza and to put an end to this humanitarian disaster.",
+		exampleletter5: "We must not allow history to repeat itself. Your decisive action is now more necessary than ever.",
+		exampleletter6: "Yours sincerely,",
+		exampleletter7: "[Your name]",
+		share: "Share and organise",
+		shareMessage1: "Use hashtags such as ",
+		shareMessage2: " and ",
+		shareMessage3: " on social media. Find or start local campaigns in your neighbourhood. Together we are stronger.",
+		disclaimer: "Together for justice and humanity."
+      },
+      nl: {
+        title: "Stop de Hongersnood in Gaza!",
+		title2: "Kom Direct in Actie!!!",
+		description: "De tijd dringt. Laat je stem horen vóór het te laat is.",
+		alertTitle: "WAARSCHUWING:",
+		alertMessage: " De situatie in Gaza kan uitgroeien tot een humanitaire ramp vergelijkbaar met tragedies uit de geschiedenis zoals WOII. Wij mogen niet toekijken!",
+		whynow: "Waarom NU handelen?",
+		whynowMessage: "De hongersnood in Gaza is geen ver-van-je-bed-show. Tienduizenden mensen, waaronder kinderen, dreigen te sterven van de honger en ontbering. Beleidsmakers kunnen dit stoppen, maar alleen als wij druk uitoefenen.",
+		whatcanyoudo: "Wat kan jij doen?",
+		wcyd1title: "Stuur brieven en e-mails:",
+		wcyd1: "Bereik je parlementariërs, politici en internationale organisaties. Laat ze weten dat je actie verwacht.",
+		wcyd2title: "Organiseer of sluit je aan bij protesten:",
+		wcyd2: "Laat je stem horen op straat en zorg dat media aandacht besteden aan deze urgente crisis.",
+		wcyd3title: "Deel informatie:",
+		wcyd3: "Gebruik sociale media, blogs en gesprekken om bewustwording te vergroten.",
+		exampleletter: "Voorbeeldbrief om te versturen",
+		exampleletter1: "Kopieer en pas deze brief aan om je beleidsmakers te mailen of te posten op sociale media:",
+		exampleletter2: "Geachte heer/mevrouw,",
+		exampleletter3: "De humanitaire crisis in Gaza bereikt een kritiek punt. Door de blokkades en tekorten dreigen duizenden onschuldige burgers, vooral kinderen, te sterven van de honger.",
+		exampleletter4: "Ik roep u dringend op om alle mogelijke stappen te ondernemen om onmiddellijke voedsel- en hulpgoederen toegang tot Gaza te garanderen en een einde te maken aan deze humanitaire ramp.",
+		exampleletter5: "Wij mogen niet toestaan dat de geschiedenis zich herhaalt. Uw daadkracht is nu meer dan ooit noodzakelijk.",
+		exampleletter6: "Met vriendelijke groet,",
+		exampleletter7: "[Je naam]",
+		share: "Deel en organiseer",
+		shareMessage1: "Gebruik hashtags zoals ",
+		shareMessage2: " en ",
+		shareMessage3: " op social media. Zoek of start lokale acties in jouw buurt. Samen zijn we sterker.",
+		disclaimer: "Samen voor gerechtigheid en menselijkheid."
+      },
+	  de: {
+        title: "Stoppt die Hungersnot in Gaza!",
+		title2: "Handeln Sie sofort!!!",
+		description: "Die Zeit drängt. Verschaffen Sie sich Gehör, bevor es zu spät ist.",
+		alertTitle: "WARNUNG:",
+		alertMessage: " Die Lage in Gaza kann sich zu einer humanitären Katastrophe entwickeln, die mit historischen Tragödien wie dem Zweiten Weltkrieg vergleichbar ist. Wir dürfen nicht tatenlos zusehen!",
+		whynow: "Warum JETZT handeln?",
+		whynowMessage: "Die Hungersnot in Gaza ist kein weit entferntes Problem. Zehntausende Menschen, darunter auch Kinder, sind von Hunger und Entbehrung bedroht. Die Politik kann dies verhindern, aber nur, wenn wir Druck ausüben.",
+		whatcanyoudo: "Was kannst du tun?",
+		wcyd1title: "Senden Sie Briefe und E-Mails:",
+		wcyd1: "Erreichen Sie Ihre Parlamentarier, Politiker und internationalen Organisationen. Lassen Sie sie wissen, dass Sie Maßnahmen erwarten.",
+		wcyd2title: "Organisieren Sie Proteste oder schließen Sie sich ihnen an:",
+		wcyd2: "Machen Sie sich auf der Straße Gehör und sorgen Sie dafür, dass die Medien dieser dringenden Krise Aufmerksamkeit schenken.",
+		wcyd3title: "Informationen teilen:",
+		wcyd3: "Nutzen Sie soziale Medien, Blogs und Gespräche, um das Bewusstsein zu schärfen.",
+		exampleletter: "Musterbrief zum Versenden",
+		exampleletter1: "Kopieren Sie diesen Brief und passen Sie ihn an, um ihn an Ihre politischen Entscheidungsträger zu mailen oder in den sozialen Medien zu veröffentlichen:",
+		exampleletter2: "Sehr geehrte Damen und Herren,",
+		exampleletter3: "Die humanitäre Krise in Gaza erreicht einen kritischen Punkt. Durch die Blockaden und Versorgungsengpässe drohen Tausende unschuldiger Zivilisten, vor allem Kinder, zu verhungern.",
+		exampleletter4: "Ich fordere Sie dringend auf, alle möglichen Maßnahmen zu ergreifen, um den sofortigen Zugang von Lebensmitteln und Hilfsgütern nach Gaza zu gewährleisten und dieser humanitären Katastrophe ein Ende zu setzen.",
+		exampleletter5: "Wir dürfen nicht zulassen, dass sich die Geschichte wiederholt. Ihre Tatkraft ist jetzt mehr denn je gefragt.",
+		exampleletter6: "Mit freundlichen Grüßen,",
+		exampleletter7: "[Ihr Name]",
+		share: "Teilen und organisieren",
+		shareMessage1: "Verwenden Sie Hashtags wie ",
+		shareMessage2: " und ",
+		shareMessage3: " auf Social Media. Suche oder starte lokale Aktionen in deiner Nachbarschaft. Gemeinsam sind wir stärker.",
+		disclaimer: "Gemeinsam für Gerechtigkeit und Menschlichkeit."
+      },
+	  fr: {
+        title: "Stop à la famine à Gaza !",
+		title2: "Agissez immédiatement!!!",
+		description: "Le temps presse. Faites entendre votre voix avant qu'il ne soit trop tard.",
+		alertTitle: "AVERTISSEMENT:",
+		alertMessage: " La situation à Gaza pourrait dégénérer en une catastrophe humanitaire comparable à des tragédies historiques telles que la Seconde Guerre mondiale. Nous ne pouvons pas rester les bras croisés!",
+		whynow: "Pourquoi agir MAINTENANT?",
+		whynowMessage: "La famine à Gaza n'est pas un problème lointain. Des dizaines de milliers de personnes, dont des enfants, risquent de mourir de faim et de privations. Les décideurs politiques peuvent mettre fin à cette situation, mais seulement si nous faisons pression sur eux.",
+		whatcanyoudo: "Que pouvez-vous faire?",
+		wcyd1title: "Envoyez des lettres et des courriels:",
+		wcyd1: "Contactez vos parlementaires, vos responsables politiques et les organisations internationales. Faites-leur savoir que vous attendez des mesures concrètes.",
+		wcyd2title: "Organisez ou rejoignez des manifestations:",
+		wcyd2: "Faites entendre votre voix dans la rue et veillez à ce que les médias accordent leur attention à cette crise urgente.",
+		wcyd3title: "Partager l'information:",
+		wcyd3: "Utilisez les réseaux sociaux, les blogs et les conversations pour sensibiliser le public.",
+		exampleletter: "Exemple de lettre à envoyer",
+		exampleletter1: "Copiez et adaptez cette lettre pour l'envoyer par e-mail à vos décideurs politiques ou la publier sur les réseaux sociaux :",
+		exampleletter2: "Cher Monsieur, chère Madame,",
+		exampleletter3: "La crise humanitaire à Gaza atteint un point critique. En raison des blocus et des pénuries, des milliers de civils innocents, en particulier des enfants, risquent de mourir de faim.",
+		exampleletter4: "Je vous exhorte à prendre toutes les mesures possibles pour garantir l'accès immédiat à Gaza des denrées alimentaires et des fournitures de secours et mettre fin à cette catastrophe humanitaire.",
+		exampleletter5: "Nous ne pouvons pas laisser l'histoire se répéter. Votre détermination est plus que jamais nécessaire.",
+		exampleletter6: "Cordialement,",
+		exampleletter7: "[Votre nom]",
+		share: "Partager et organiser",
+		shareMessage1: "Utilisez des hashtags tels que ",
+		shareMessage2: " et ",
+		shareMessage3: " sur les réseaux sociaux. Recherchez ou lancez des actions locales dans votre quartier. Ensemble, nous sommes plus forts.",
+		disclaimer: "Ensemble pour la justice et l'humanité."
+      },
+	  es: {
+        title: "¡Acabemos con la hambruna en Gaza!",
+		title2: "¡Actúa ahora mismo!",
+		description: "El tiempo apremia. Haz oír tu voz antes de que sea demasiado tarde.",
+		alertTitle: "ADVERTENCIA:",
+		alertMessage: " La situación en Gaza puede convertirse en una catástrofe humanitaria comparable a tragedias históricas como la Segunda Guerra Mundial. ¡No podemos quedarnos de brazos cruzados!",
+		whynow: "¿Por qué actuar AHORA?",
+		whynowMessage: "La hambruna en Gaza no es algo lejano. Decenas de miles de personas, entre ellas niños, corren el riesgo de morir de hambre y privaciones. Los responsables políticos pueden poner fin a esta situación, pero solo si ejercemos presión.",
+		whatcanyoudo: "¿Qué puedes hacer tú?",
+		wcyd1title: "Envíe cartas y correos electrónicos:",
+		wcyd1: "Póngase en contacto con sus parlamentarios, políticos y organizaciones internacionales. Hágales saber que espera que tomen medidas.",
+		wcyd2title: "Organiza o únete a las protestas:",
+		wcyd2: "Haz oír tu voz en la calle y consigue que los medios de comunicación presten atención a esta crisis urgente.",
+		wcyd3title: "Compartir información:",
+		wcyd3: "Utiliza las redes sociales, los blogs y las conversaciones para aumentar la concienciación.",
+		exampleletter: "Modelo de carta para enviar",
+		exampleletter1: "Copia y adapta esta carta para enviarla por correo electrónico a tus responsables políticos o publicarla en las redes sociales:",
+		exampleletter2: "Estimado señor/señora:",
+		exampleletter3: "La crisis humanitaria en Gaza está llegando a un punto crítico. Debido a los bloqueos y la escasez, miles de civiles inocentes, sobre todo niños, corren el riesgo de morir de hambre.",
+		exampleletter4: "Le insto a que adopte todas las medidas posibles para garantizar el acceso inmediato de alimentos y suministros de ayuda a Gaza y poner fin a esta catástrofe humanitaria.",
+		exampleletter5: "No podemos permitir que la historia se repita. Su capacidad de acción es ahora más necesaria que nunca.",
+		exampleletter6: "Atentamente,",
+		exampleletter7: "[Tu nombre]",
+		share: "Comparte y organiza",
+		shareMessage1: "Usa hashtags como ",
+		shareMessage2: " y ",
+		shareMessage3: " en las redes sociales. Busca o inicia acciones locales en tu zona. Juntos somos más fuertes.",
+		disclaimer: "Juntos por la justicia y la humanidad."
+      },
+	  it: {
+        title: "Stop alla carestia a Gaza!",
+		title2: "Agisci subito!!!",
+		description: "Il tempo stringe. Fai sentire la tua voce prima che sia troppo tardi.",
+		alertTitle: "AVVERTENZA:",
+		alertMessage: " La situazione a Gaza può trasformarsi in una catastrofe umanitaria paragonabile alle tragedie della storia come la Seconda Guerra Mondiale. Non possiamo restare a guardare!",
+		whynow: "Perché agire ADESSO?",
+		whynowMessage: "La carestia a Gaza non è un problema lontano da noi. Decine di migliaia di persone, tra cui bambini, rischiano di morire di fame e di stenti. I politici possono porre fine a questa situazione, ma solo se esercitiamo pressione.",
+		whatcanyoudo: "Cosa puoi fare tu?",
+		wcyd1title: "Invia lettere ed e-mail:",
+		wcyd1: "Contatta i tuoi parlamentari, politici e organizzazioni internazionali. Fai sapere loro che ti aspetti che agiscano.",
+		wcyd2title: "Organizza o partecipa alle proteste:",
+		wcyd2: "Fai sentire la tua voce per strada e assicurati che i media prestino attenzione a questa crisi urgente.",
+		wcyd3title: "Condividi informazioni:",
+		wcyd3: "Utilizza i social media, i blog e le conversazioni per aumentare la consapevolezza.",
+		exampleletter: "Lettera tipo da inviare",
+		exampleletter1: "Copia e modifica questa lettera per inviarla via e-mail ai tuoi politici o pubblicarla sui social media:",
+		exampleletter2: "Gentile Signore/a,",
+		exampleletter3: "La crisi umanitaria a Gaza sta raggiungendo un punto critico. A causa dei blocchi e delle carenze, migliaia di civili innocenti, soprattutto bambini, rischiano di morire di fame.",
+		exampleletter4: "Vi esorto a intraprendere tutte le misure possibili per garantire l'accesso immediato di generi alimentari e aiuti umanitari a Gaza e porre fine a questa catastrofe umanitaria.",
+		exampleletter5: "Non possiamo permettere che la storia si ripeta. Il vostro intervento è ora più che mai necessario.",
+		exampleletter6: "Cordiali saluti,",
+		exampleletter7: "[Il tuo nome]",
+		share: "Condividi e organizza",
+		shareMessage1: "Usa hashtag come ",
+		shareMessage2: " e ",
+		shareMessage3: " sui social media. Cerca o avvia iniziative locali nella tua zona. Insieme siamo più forti.",
+		disclaimer: "Insieme per la giustizia e l'umanità."
+      },
+	  ar: {
+        title: "أوقفوا المجاعة في غزة!",
+		title2: "بادروا بالتحرك فوراً!!!",
+		description: "الوقت يداهمنا. أسمع صوتك قبل فوات الأوان.",
+		alertTitle: "تحذير:",
+		alertMessage: " الوضع في غزة قد يتطور إلى كارثة إنسانية مماثلة للمآسي التاريخية مثل الحرب العالمية الثانية. لا يجوز لنا أن نقف مكتوفي الأيدي!",
+		whynow: "لماذا يجب التصرف الآن؟",
+		whynowMessage: "المجاعة في غزة ليست مسألة بعيدة عنكم. عشرات الآلاف من الناس، بمن فيهم الأطفال، مهددون بالموت جوعاً وحرماناً. يمكن لصانعي السياسات وقف هذا، ولكن فقط إذا مارسنا الضغط عليهم.",
+		whatcanyoudo: "ماذا يمكنك أن تفعل؟",
+		wcyd1title: "أرسل رسائل ورسائل إلكترونية:",
+		wcyd1: "تواصل مع أعضاء البرلمان والسياسيين والمنظمات الدولية. أخبرهم أنك تتوقع منهم اتخاذ إجراءات.",
+		wcyd2title: "نظم أو انضم إلى الاحتجاجات:",
+		wcyd2: "أعرب عن رأيك في الشارع واحرص على أن تولي وسائل الإعلام اهتمامًا لهذه الأزمة الملحة.",
+		wcyd3title: "شارك المعلومات:",
+		wcyd3: "استخدم وسائل التواصل الاجتماعي والمدونات والمحادثات لزيادة الوعي.",
+		exampleletter: "نموذج خطاب لإرساله",
+		exampleletter1: "انسخ هذه الرسالة وقم بتعديلها لإرسالها إلى صانعي السياسات عبر البريد الإلكتروني أو نشرها على وسائل التواصل الاجتماعي:",
+		exampleletter2: "السيد/السيدة المحترم/ة،",
+		exampleletter3: "الأزمة الإنسانية في غزة تصل إلى نقطة حرجة. بسبب الحصار والنقص في الإمدادات، يواجه آلاف المدنيين الأبرياء، وخاصة الأطفال، خطر الموت جوعاً.",
+		exampleletter4: "أناشدكم بشدة اتخاذ جميع الخطوات الممكنة لضمان وصول المساعدات الغذائية والإنسانية إلى غزة على الفور ووضع حد لهذه الكارثة الإنسانية.",
+		exampleletter5: "يجب ألا نسمح بتكرار التاريخ. إن قوة إرادتكم مطلوبة الآن أكثر من أي وقت مضى.",
+		exampleletter6: "مع أطيب التحيات،",
+		exampleletter7: "[اسمك]",
+		share: "شارك ونظم",
+		shareMessage1: "استخدم علامات التصنيف مثل ",
+		shareMessage2: " و ",
+		shareMessage3: " على وسائل التواصل الاجتماعي. ابحث عن الأنشطة المحلية في منطقتك أو ابدأ أنشطة جديدة. معًا نحن أقوى.",
+		disclaimer: "معاً من أجل العدالة والإنسانية."
+      }
+    };
+    function setLanguage(lang) {
+      const t = translations[lang] || translations['en'];
+      document.getElementById("title").textContent = t.title;
+	  document.getElementById("title2").textContent = t.title2;
+      document.getElementById("description").textContent = t.description;
+      document.getElementById("alert-title").textContent = t.alertTitle;
+	  document.getElementById("alert-message").textContent = t.alertMessage;
+	  document.getElementById("whynow").textContent = t.whynow;
+	  document.getElementById("whynow-message").textContent = t.whynowMessage;
+	  document.getElementById("whatcanyoudo").textContent = t.whatcanyoudo;
+	  document.getElementById("wcyd-step1title").textContent = t.wcyd1title;
+	  document.getElementById("wcyd-step1").textContent = t.wcyd1;
+	  document.getElementById("wcyd-step2title").textContent = t.wcyd2title;
+	  document.getElementById("wcyd-step2").textContent = t.wcyd2;
+	  document.getElementById("wcyd-step3title").textContent = t.wcyd3title;
+	  document.getElementById("wcyd-step3").textContent = t.wcyd3;
+	  document.getElementById("exampleletter").textContent = t.exampleletter;
+	  document.getElementById("exampleletter-1").textContent = t.exampleletter1;
+	  document.getElementById("exampleletter-2").textContent = t.exampleletter2;
+	  document.getElementById("exampleletter-3").textContent = t.exampleletter3;
+	  document.getElementById("exampleletter-4").textContent = t.exampleletter4;
+	  document.getElementById("exampleletter-5").textContent = t.exampleletter5;
+	  document.getElementById("exampleletter-6").textContent = t.exampleletter6;
+	  document.getElementById("exampleletter-7").textContent = t.exampleletter7;
+	  document.getElementById("share").textContent = t.share;
+	  document.getElementById("share-message1").textContent = t.shareMessage1;
+	  document.getElementById("share-message2").textContent = t.shareMessage2;
+	  document.getElementById("share-message3").textContent = t.shareMessage3;
+	  document.getElementById("disclaimer").textContent = t.disclaimer;
+      // Set direction for Arab
+      document.body.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    }
+    // Initial language
+    setLanguage('en');
+  </script>
+</body>
+</html>
